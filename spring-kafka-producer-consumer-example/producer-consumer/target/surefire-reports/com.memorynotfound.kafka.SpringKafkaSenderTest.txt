@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.memorynotfound.kafka.SpringKafkaSenderTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.794 s <<< FAILURE! - in com.memorynotfound.kafka.SpringKafkaSenderTest
+testSend(com.memorynotfound.kafka.SpringKafkaSenderTest)  Time elapsed: 7.153 s  <<< FAILURE!
+java.lang.AssertionError: 
+
+Expected: a ConsumerRecord with value Hello Spring Kafka Sender!
+     but: is null
+	at com.memorynotfound.kafka.SpringKafkaSenderTest.testSend(SpringKafkaSenderTest.java:100)
+

@@ -1,6 +1,5 @@
 package com.memorynotfound.kafka;
 
-import com.memorynotfound.kafka.producer.Sender;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.junit.After;
 import org.junit.Before;
@@ -21,6 +20,8 @@ import org.springframework.kafka.test.utils.KafkaTestUtils;
 import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.fab.digital.kafka.producer.Sender;
+
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
@@ -38,7 +39,7 @@ public class SpringKafkaSenderTest {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(SpringKafkaSenderTest.class);
 
-    private static String SENDER_TOPIC = "";
+    private static String SENDER_TOPIC = "bigDataRequestTopic";
 
     @Autowired
     private Sender sender;

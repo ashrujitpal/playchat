@@ -1,4 +1,4 @@
-package com.memorynotfound.kafka.consumer;
+package com.fab.digital.kafka.consumer;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;

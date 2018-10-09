@@ -1,10 +1,11 @@
-package com.memorynotfound.kafka;
+package com.fab.digital.kafka;
 
-import com.memorynotfound.kafka.producer.Sender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.fab.digital.kafka.producer.Sender;
 
 @SpringBootApplication
 public class ProducerConsumerApplication implements CommandLineRunner {

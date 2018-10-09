@@ -1,4 +1,4 @@
-package com.memorynotfound.kafka.producer;
+package com.fab.digital.kafka.producer;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;

@@ -1,4 +1,4 @@
-package com.memorynotfound.kafka.producer;
+package com.fab.digital.kafka.producer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
