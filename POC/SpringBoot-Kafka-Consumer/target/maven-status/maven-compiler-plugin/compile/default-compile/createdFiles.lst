@@ -1,0 +1,7 @@
+com\springboot\kafka\Consumer\SpringBootKafkaConsumerApplication.class
+com\springboot\kafka\Consumer\models\SenderConfig.class
+com\springboot\kafka\Consumer\SpringBootKafkaConsumerApplication$Listener.class
+com\springboot\kafka\Consumer\models\BigDataRequest.class
+com\springboot\kafka\Consumer\models\Sender.class
+com\springboot\kafka\Consumer\models\ConfigProperties.class
+com\springboot\kafka\Consumer\models\JsonConfiguration.class

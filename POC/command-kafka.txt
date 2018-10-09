@@ -1,0 +1,45 @@
+To start zookeeper
+==================
+D:\POC\DP-EventDriven-Kafka\Tools\zookeeper-3.4.9
+.\bin\zkServer
+
+
+Starting KAFKA server
+=====================
+D:\POC\DP-EventDriven-Kafka\Tools\kafka_2.10-0.10.1.1
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+
+KAFKA Topic creation
+====================
+
+D:\POC\DP-EventDriven-Kafka\Tools\kafka_2.10-0.10.1.1
+.\bin\windows\kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bigDataRequestTopic
+.\bin\windows\kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic bigDataResponseTopic
+
+
+
+
+http://localhost:8077/kafka/kafkaProducer
+
+
+{
+"fromAccNo":"109238237298372712343",
+"toAccNo":"1342343413121q234",
+"amount":"10000",
+"ifscCode":"HDFC0003213",
+"desc":"Transfer money",
+"refId":"231" 
+}
+
+
+
+.\bin\windows\kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic fundTransferRequestTopic
+
+
+.\bin\windows\kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic fundTransferResponseTopic
+
+
+https://stackoverflow.com/questions/1302698/system-io-exception-error-the-requested-operation-cannot-be-performed-on-a-fil
+
+

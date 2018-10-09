@@ -1,0 +1,7 @@
+kafka:
+  brokerAddress: ec2-18-235-150-53.compute-1.amazonaws.com:9092
+  restURL: http://ec2-18-235-150-53.compute-1.amazonaws.com:8077/kafka/kafkaProducerSuccess
+  responseTopic: bigDataResponseTopic
+spring:
+  jmx:
+    enabled: false
