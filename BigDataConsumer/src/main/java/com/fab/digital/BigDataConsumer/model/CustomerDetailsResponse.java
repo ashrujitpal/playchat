@@ -6,6 +6,7 @@ public class CustomerDetailsResponse {
 	
 	private String customerId;
 	private List<Offer> offers;
+	private String acknowledgement;	
 	
 	public String getCustomerId() {
 		return customerId;
@@ -19,5 +20,10 @@ public class CustomerDetailsResponse {
 	public void setOffers(List<Offer> offers) {
 		this.offers = offers;
 	}
-	
+	public String getAcknowledgement() {
+		return acknowledgement;
+	}
+	public void setAcknowledgement(String acknowledgement) {
+		this.acknowledgement = acknowledgement;
+	}		
 }
