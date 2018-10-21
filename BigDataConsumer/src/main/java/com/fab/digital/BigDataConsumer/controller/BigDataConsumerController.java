@@ -76,6 +76,9 @@ public class BigDataConsumerController {
 		System.out.println("Request body===================");
 		System.out.println(request.getBody());
 		
+	
+		System.out.println("==========Setting the request=============" );
+		
 		HttpHeaders header = new HttpHeaders();
 		header.setContentType(MediaType.APPLICATION_JSON);	
 		header.add("x-api-key", "5c9u3q3523");
